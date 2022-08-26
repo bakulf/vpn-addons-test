@@ -26,6 +26,16 @@ const presets = [
     expectedBehavior: "the app should remove all the existing add-ons and replace them with a single add-on file.",
     url: "/single_manifest/",
   },
+  { 
+    title: "Manifest with missing add-on files (1 add-on OK, 1 add-on missing)",
+    expectedBehavior: "the app should remove all the existing add-ons and the missing add-ons will be ignored.",
+    url: "/missing_addon/",
+  },
+  { 
+    title: "Invalid hash add-on",
+    expectedBehavior: "the app should remove all the existing add-ons and the broken add-ons will be ignored.",
+    url: "/broken_addon/",
+  },
 ];
 
 const div = document.createElement('content');

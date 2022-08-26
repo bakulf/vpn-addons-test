@@ -1,0 +1,13 @@
+{
+  "api_version": "0.1",
+  "addons": [
+    {
+      "id": "tutorial_01_get_started",
+      "sha256": "e9a06a1a609a63cdfd4e8a29e5da5976d0c3bf7e63d043fa2ed00a8278847a8b"
+    },
+    {
+      "id": "broken_addon",
+      "sha256": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    }
+  ]
+}

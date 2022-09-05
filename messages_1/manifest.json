@@ -1,0 +1,9 @@
+{
+  "api_version": "0.1",
+  "addons": [
+    {
+      "id": "message_1",
+      "sha256": "5747ac68aa4d075c7a3f5484cbafceb68dec2872532efcc34a008a2e3ec3cf67"
+    }
+  ]
+}

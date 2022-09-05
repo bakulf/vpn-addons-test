@@ -1,0 +1,17 @@
+{
+  "api_version": "0.1",
+  "addons": [
+    {
+      "id": "message_1",
+      "sha256": "5747ac68aa4d075c7a3f5484cbafceb68dec2872532efcc34a008a2e3ec3cf67"
+    },
+    {
+      "id": "message_2",
+      "sha256": "ff1f8b460b0291a2be41797a744968db09b15959ed5b0a97d7474684fbdd0e95"
+    },
+    {
+      "id": "message_3",
+      "sha256": "7c5e73c5facc513ec9c6d233184d07b01ef0b5c7a71fd0d503fbc5b99cd7dfb3"
+    }
+  ]
+}

@@ -39,22 +39,27 @@ const presets = [
   { 
     title: "One add-on message",
     expectedBehavior: "the app should show only 1 message.",
-    url: "/messages_1",
+    url: "/messages_1/",
   },
   { 
     title: "Two add-on messages",
     expectedBehavior: "the app should show only two messages.",
-    url: "/messages_2",
+    url: "/messages_2/",
   },
   { 
     title: "Three add-on messages",
     expectedBehavior: "the app should show only three messages.",
-    url: "/messages_3",
+    url: "/messages_3/",
   },
   { 
     title: "Four add-on messages",
     expectedBehavior: "the app should show only fource messages.",
-    url: "/messages_4",
+    url: "/messages_4/",
+  },
+  { 
+    title: "Messages with locale conditions",
+    expectedBehavior: "the app should show [all, en, en-it] messages if the locale is 'en'; [all, it, en-it] if the locale is 'it'; [all] if the locale is something else.",
+    url: "/messages_locale/",
   },
 ];
 

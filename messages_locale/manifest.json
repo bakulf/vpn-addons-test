@@ -1,0 +1,21 @@
+{
+  "api_version": "0.1",
+  "addons": [
+    {
+      "id": "message_staging_locale_all",
+      "sha256": "69c875dc28139dd979887418fd807350e425955ee03b9210c892437416dd0b98"
+    },
+    {
+      "id": "message_staging_locale_en",
+      "sha256": "75af17fb4d973f693e18413e0ea77dc150c33c365ff2ea2881f85d19cb72f5c6"
+    },
+    {
+      "id": "message_staging_locale_it",
+      "sha256": "7b819ca1208e450ce973a198d8e67012de3c27027b4e138b4422801fdd29d6c3"
+    },
+    {
+      "id": "message_staging_locale_enit",
+      "sha256": "d45792058479970d374bae902620a60ef9725860cc4eccf57af646c2ae39b328"
+    }
+  ]
+}

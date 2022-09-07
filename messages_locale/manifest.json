@@ -2,10 +2,6 @@
   "api_version": "0.1",
   "addons": [
     {
-      "id": "message_staging_locale_all",
-      "sha256": "69c875dc28139dd979887418fd807350e425955ee03b9210c892437416dd0b98"
-    },
-    {
       "id": "message_staging_locale_en",
       "sha256": "75af17fb4d973f693e18413e0ea77dc150c33c365ff2ea2881f85d19cb72f5c6"
     },

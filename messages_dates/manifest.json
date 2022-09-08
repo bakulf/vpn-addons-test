@@ -1,0 +1,85 @@
+{
+  "api_version": "0.1",
+  "addons": [
+    {
+      "id": "message_9_7",
+      "sha256": "1933e208f762c9ff0664709bb467979098c5ede62cfd19b7522da25a48d8b655"
+    },
+    {
+      "id": "message_9_8",
+      "sha256": "8776322719c9700a48028d046e361d9b18f0e3b7eb8d72de6135f93e2e0a2b02"
+    },
+    {
+      "id": "message_9_25",
+      "sha256": "f041a49f5ba610cbcc002151a82bb61eb3d20965dfe6a92d0f424465b4718f28"
+    },
+    {
+      "id": "message_9_17",
+      "sha256": "a36498fb05445eb4ab1825a2b2f8ac90a9a26a156b7980915a7ca99661ae1846"
+    },
+    {
+      "id": "message_9_23",
+      "sha256": "d4eb600dcdbb7d233f7614657fbefd7b040d922ffc5dd3786804f0925f75b789"
+    },
+    {
+      "id": "message_9_15",
+      "sha256": "05c8e3012007a9069cddb2cfee1871531ce72d04b79e147fa3638f6bb537a5f7"
+    },
+    {
+      "id": "message_9_18",
+      "sha256": "7bc3e5d0aa36fad4c7bda4e15886b48013ae44b68852fc47743999c28b1d8b67"
+    },
+    {
+      "id": "message_9_11",
+      "sha256": "841af0ee86c4485dbb597a9b348b7768edeae0a4f9ff790293df651c86f95acb"
+    },
+    {
+      "id": "message_9_12",
+      "sha256": "b0bcd0d1f2f1003052e483678dff625e24e955864b7bb1ebb5cd68c7314bf81b"
+    },
+    {
+      "id": "message_9_9",
+      "sha256": "42e5fd878dd7791bf6f7532c2e8f523320147828d632b28bdd0b058f7cf4cba2"
+    },
+    {
+      "id": "message_9_6",
+      "sha256": "6288df48467855b70743418e197d31263ff7f064d5208c27bdf5b649773eb9fe"
+    },
+    {
+      "id": "message_9_22",
+      "sha256": "d4602d3cf83fb7ab0a04f075d2656da989392699f55047f8809c29480cbd4305"
+    },
+    {
+      "id": "message_9_20",
+      "sha256": "f43caee0e1539e7eb984795da0d63c56ee86feee6f91483c36523473206a9882"
+    },
+    {
+      "id": "message_9_19",
+      "sha256": "a56b7278cf87a9eeb69caff69d77848034693ba7ab98e9b55a364708356b6b6d"
+    },
+    {
+      "id": "message_9_21",
+      "sha256": "bbfcca276970cac5486c9a4b3cff9a7cd72ab9bdb06ff74603f89a93efe556d9"
+    },
+    {
+      "id": "message_9_16",
+      "sha256": "f66b2ba5f40c30e4859f35ce6244d59ae9e2cf7d4149281aff48b0af344b04bb"
+    },
+    {
+      "id": "message_9_13",
+      "sha256": "9a50f52a0b405a447a7dc398ae03b00fbe398c57cd8a76f2a0e9b1dadc841964"
+    },
+    {
+      "id": "message_9_10",
+      "sha256": "0912ab27a26a7dc8155e21bcd2407067c59a9f45708e4bc387a24f94128a6414"
+    },
+    {
+      "id": "message_9_24",
+      "sha256": "144823a890e9148cbccc5df741f477d6073a1ef6d9791d31a52998f03efa808a"
+    },
+    {
+      "id": "message_9_14",
+      "sha256": "b4568b859ae29fd5315116fa46b82ca06e916bf917765cf893c0981865f0aaa2"
+    }
+  ]
+}

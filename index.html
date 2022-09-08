@@ -61,6 +61,11 @@ const presets = [
     expectedBehavior: "the app should show [en, en-it] messages if the locale is 'en'; [it, en-it] if the locale is 'it'; [] if the locale is something else.",
     url: "/messages_locale/",
   },
+  { 
+    title: "Messages with dates",
+    expectedBehavior: "A lot of messages. If the date is in the future you should see the date of today. Otherwise the correct date should be shown",
+    url: "/messages_dates/",
+  },
 ];
 
 const div = document.createElement('content');

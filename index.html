@@ -5,102 +5,107 @@
 <div id="content"></div>
 
 <script>
-const presets = [
-  { 
-    title: "Empty manifest",
-    expectedBehavior: "the app should remove all the pre-fetch add-ons. No addons should be visible.",
-    url: "/empty_manifest/",
-  },
-  { 
-    title: "Invalid manifest",
-    expectedBehavior: "the app should keep the current add-ons.",
-    url: "/broken_manifest/",
-  },
-  { 
-    title: "Not found manifest",
-    expectedBehavior: "the app should keep the current add-ons.",
-    url: "/404_manifest/",
-  },
-  { 
-    title: "One-addOn-only manifest",
-    expectedBehavior: "the app should remove all the existing add-ons and replace them with a single add-on file.",
-    url: "/single_manifest/",
-  },
-  { 
-    title: "Manifest with missing add-on files (1 add-on OK, 1 add-on missing)",
-    expectedBehavior: "the app should remove all the existing add-ons and the missing add-ons will be ignored.",
-    url: "/missing_addon/",
-  },
-  { 
-    title: "Invalid hash add-on",
-    expectedBehavior: "the app should remove all the existing add-ons and the broken add-ons will be ignored.",
-    url: "/broken_addon/",
-  },
-  { 
-    title: "One add-on message",
-    expectedBehavior: "the app should show only 1 message.",
-    url: "/messages_1/",
-  },
-  { 
-    title: "Two add-on messages",
-    expectedBehavior: "the app should show only two messages.",
-    url: "/messages_2/",
-  },
-  { 
-    title: "Three add-on messages",
-    expectedBehavior: "the app should show only three messages.",
-    url: "/messages_3/",
-  },
-  { 
-    title: "Four add-on messages",
-    expectedBehavior: "the app should show only fource messages.",
-    url: "/messages_4/",
-  },
-  { 
-    title: "Messages with locale conditions",
-    expectedBehavior: "the app should show [en, en-it] messages if the locale is 'en'; [it, en-it] if the locale is 'it'; [] if the locale is something else.",
-    url: "/messages_locale/",
-  },
-  { 
-    title: "Messages with dates",
-    expectedBehavior: "A lot of messages. If the date is in the future you should see the date of today. Otherwise the correct date should be shown",
-    url: "/messages_dates/",
-  },
-];
+  const presets = [
+    {
+      title: "Empty manifest",
+      expectedBehavior: "the app should remove all the pre-fetch add-ons. No addons should be visible.",
+      url: "/empty_manifest/",
+    },
+    {
+      title: "Invalid manifest",
+      expectedBehavior: "the app should keep the current add-ons.",
+      url: "/broken_manifest/",
+    },
+    {
+      title: "Not found manifest",
+      expectedBehavior: "the app should keep the current add-ons.",
+      url: "/404_manifest/",
+    },
+    {
+      title: "One-addOn-only manifest",
+      expectedBehavior: "the app should remove all the existing add-ons and replace them with a single add-on file.",
+      url: "/single_manifest/",
+    },
+    {
+      title: "Manifest with missing add-on files (1 add-on OK, 1 add-on missing)",
+      expectedBehavior: "the app should remove all the existing add-ons and the missing add-ons will be ignored.",
+      url: "/missing_addon/",
+    },
+    {
+      title: "Invalid hash add-on",
+      expectedBehavior: "the app should remove all the existing add-ons and the broken add-ons will be ignored.",
+      url: "/broken_addon/",
+    },
+    {
+      title: "One add-on message",
+      expectedBehavior: "the app should show only 1 message.",
+      url: "/messages_1/",
+    },
+    {
+      title: "Two add-on messages",
+      expectedBehavior: "the app should show only two messages.",
+      url: "/messages_2/",
+    },
+    {
+      title: "Three add-on messages",
+      expectedBehavior: "the app should show only three messages.",
+      url: "/messages_3/",
+    },
+    {
+      title: "Four add-on messages",
+      expectedBehavior: "the app should show only fource messages.",
+      url: "/messages_4/",
+    },
+    {
+      title: "Messages with locale conditions",
+      expectedBehavior: "the app should show [en, en-it] messages if the locale is 'en'; [it, en-it] if the locale is 'it'; [] if the locale is something else.",
+      url: "/messages_locale/",
+    },
+    {
+      title: "Messages with dates",
+      expectedBehavior: "A lot of messages. If the date is in the future you should see the date of today. Otherwise the correct date should be shown",
+      url: "/messages_dates/",
+    },
+    {
+      title: "Advanced Tips & Tricks",
+      expectedBehavior: "the usual tips and tutorials + advanced tips.",
+      url: "/advanced_tips_and_tricks/",
+    },
+  ];
 
-const div = document.createElement('content');
+  const div = document.createElement('content');
 
-let urlString = window.location.origin;
-if (window.location.pathname !== '/' && window.location.pathname !== '') {
-  urlString += window.location.pathname.split('/').filter(a => a != 'index.html').join('/');
-}
+  let urlString = window.location.origin;
+  if (window.location.pathname !== '/' && window.location.pathname !== '') {
+    urlString += window.location.pathname.split('/').filter(a => a != 'index.html').join('/');
+  }
 
-presets.forEach(preset => {
-  const title = document.createElement('h4');
-  title.textContent = preset.title;
-  content.appendChild(title);
+  presets.forEach(preset => {
+    const title = document.createElement('h4');
+    title.textContent = preset.title;
+    content.appendChild(title);
 
-  const ebd = document.createElement('div');
-  content.appendChild(ebd);
+    const ebd = document.createElement('div');
+    content.appendChild(ebd);
 
-  const ebt = document.createElement('strong');
-  ebt.textContent = "Expected Behavior: ";
-  ebd.appendChild(ebt);
+    const ebt = document.createElement('strong');
+    ebt.textContent = "Expected Behavior: ";
+    ebd.appendChild(ebt);
 
-  const eb = document.createElement('span');
-  eb.textContent = preset.expectedBehavior;
-  ebd.appendChild(eb);
+    const eb = document.createElement('span');
+    eb.textContent = preset.expectedBehavior;
+    ebd.appendChild(eb);
 
-  const urld = document.createElement('div');
-  content.appendChild(urld);
+    const urld = document.createElement('div');
+    content.appendChild(urld);
 
-  const urlt = document.createElement('strong');
-  urlt.textContent = "URL: ";
-  urld.appendChild(urlt);
+    const urlt = document.createElement('strong');
+    urlt.textContent = "URL: ";
+    urld.appendChild(urlt);
 
-  const url = document.createElement('a');
-  url.href = urlString + preset.url;
-  url.textContent = url.href
-  urld.appendChild(url);
-});
+    const url = document.createElement('a');
+    url.href = urlString + preset.url;
+    url.textContent = url.href
+    urld.appendChild(url);
+  });
 </script>

@@ -1,0 +1,45 @@
+{
+  "api_version": "0.1",
+  "addons": [
+    {
+      "id": "message_privacy_bundle_staging",
+      "sha256": "a0e7caf35a991efa4e99de816855caca12e88b74c8cd0c15222c4f824a7c2c12"
+    },
+    {
+      "id": "tutorial_03_using_multi_hop_vpn",
+      "sha256": "35a27ddc6bd53e50ba922d9ea06ee164526bb4d569fb76a6ed9454bba83c507e"
+    },
+    {
+      "id": "guide_06_benefits_of_setting_a_custom_dns",
+      "sha256": "d349cfbe296ecb9bd6a60780a235cf5e1c213c97c6fdfd3cdce0c5f5cbc94054"
+    },
+    {
+      "id": "guide_01_how_to_vpn",
+      "sha256": "4923aab3db531a86b58ddb2051b5d88a1a0879f980a8aa3d7720feaf86b0433b"
+    },
+    {
+      "id": "tutorial_01_get_started",
+      "sha256": "f089dd780218d322062fcce8f30e15990e0f2864723c3316ebf6734142954e07"
+    },
+    {
+      "id": "guide_02_is_my_vpn_working_correctly",
+      "sha256": "542937b3c123b493ef1d51aa67c37182e3ace4faa39bd0de8f9c28f2ebcbab28"
+    },
+    {
+      "id": "guide_03_adding_and_removing_devices",
+      "sha256": "2011a060bbffaa6bc6adf65b886b798bf0f86aa60a95b24d755da98b4053e329"
+    },
+    {
+      "id": "guide_05_what_is_multi_hop_vpn",
+      "sha256": "c48d724c63375604e2aa090b9780dcd814a6d1539f53a4e7ed866ac0051e19cd"
+    },
+    {
+      "id": "tutorial_02_connect_on_startup",
+      "sha256": "9332237b0cd13f7f4d69250ea73d30b0a435e748f79d8b67387c823bba8c8e8a"
+    },
+    {
+      "id": "guide_04_connecting_external_devices",
+      "sha256": "ab8729d50dbdf426f23575f9bd7c1bc7786097cc89739e25b05b38bc06e607da"
+    }
+  ]
+}

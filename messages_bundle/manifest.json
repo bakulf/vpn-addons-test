@@ -1,0 +1,9 @@
+{
+  "api_version": "0.1",
+  "addons": [
+    {
+      "id": "message_privacy_bundle_staging",
+      "sha256": "6f5e07239146addf5602f39127abd43c9970013631434ca6ac0a09b86edf7838"
+    }
+  ]
+}

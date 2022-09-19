@@ -1,0 +1,9 @@
+{
+  "api_version": "0.1",
+  "addons": [
+    {
+      "id": "message_staging_long",
+      "sha256": "84f55346d53a3666431f8f08b9360a31b4f4232fba4e0751051d4865844363ed"
+    }
+  ]
+}
